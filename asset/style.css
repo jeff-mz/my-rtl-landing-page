@@ -1,0 +1,31 @@
+@font-face {
+  font-family: samim;
+  font-style: normal;
+  font-weight: 100;
+  src: url("./font/samim/Samim.eot");
+  src: url("./font/samim/Samim.woff") format("woff"),
+    url("./font/samim/Samim.ttf") format("ttf");
+}
+@font-face {
+  font-family: samim;
+  font-style: normal;
+  font-weight: bold;
+  src: url("./font/samim/Samim-Bold.eot");
+  src: url("./font/samim/Samim-Bold.woff") format("woff"),
+    url("./font/samim/Samim-Bold.ttf") format("ttf");
+}
+:root {
+  --bs-body-font-family: samim, Arial, Roboto, Sans-s;
+}
+.custom-bg {
+  background-color: #f7f6f1;
+}
+@media (min-width: 450px) {
+  .responsive-h {
+    font-size: 64px;
+    padding: 1.5rem 0rem;
+  }
+  .responsive-t {
+    font-size: 18px;
+  }
+}
